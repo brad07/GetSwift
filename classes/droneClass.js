@@ -35,9 +35,9 @@ export class Drone {
       this.distToDepot = geolib.getDistance({latitude: this.latitude,longitude: this.longitude}, this.depotLocation);
     }
 
-    // calc time to depot in secs by dividing by 20,000 metres for fixed speed
+    // calc time to depot in secs by dividing by 50,000 metres for fixed speed
     // and multiplying by 3600 seconds
-    this.timeToDepot = this.distToDepot / 20000 * 3600;
+    this.timeToDepot = this.distToDepot / 50000 * 3600;
   }
 
 }

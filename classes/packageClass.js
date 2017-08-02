@@ -16,9 +16,9 @@ export class Package {
     // calc distance from depot to delivery location
     this.deliveryDist = geolib.getDistance(this.depotLocation, {latitude: this.latitude,longitude: this.longitude});
 
-    // calc delivery time in secs by dividing by 20,000 metres for fixed speed
+    // calc delivery time in secs by dividing by 50,000 metres for fixed speed
     // and multiplying by 3600 seconds
-    this.deliveryTime = this.deliveryDist / 20000 * 3600;
+    this.deliveryTime = this.deliveryDist / 50000 * 3600;
 
   }
 }
