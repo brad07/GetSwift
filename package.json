@@ -1,0 +1,20 @@
+{
+  "name": "getswift",
+  "version": "1.0.0",
+  "description": "Brad Bond Test Code",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets es2015 app.js"
+  },
+  "author": "Brad Bond",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-cli": "^6.24.1",
+    "babel-core": "6.17.0",
+    "babel-preset-es2015": "^6.24.1",
+    "debug": "^2.6.8",
+    "geolib": "^2.0.22",
+    "moment": "^2.18.1"
+  }
+}
